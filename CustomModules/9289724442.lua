@@ -134,7 +134,7 @@ local whitelisted = {
 	}
 }
 pcall(function()
-	whitelisted = game:GetService("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/whitelists/main/whitelist2.json", true))
+	whitelisted = game:GetService("HttpService"):JSONDecode(game:HttpGet("https://github.com/VapeConfigs/whitelists/blob/main/PlayerWhitelist.json", true))
 end)
 
 local function BindToRenderStep(name, num, func)
